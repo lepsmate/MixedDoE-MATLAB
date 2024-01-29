@@ -1,7 +1,7 @@
 # MixedDoE-MATLAB
 
 
-MixedDoE-MATLAB is a program that creates a Design of (computer) Experiments (DoE) for cobination of discrete and/or continuous variables in Matlab. The descrete part is composed either of full factorial or Taguchi-type Orthogonal array desings. For each point in a descrete part, a sliced design (Qian, 2015) is created for continuous variables. In this way, the continuous domain is uniformly covered but still, for different discrete poits the continuous part is not overlapping. Two procedures for contonuous part are avalable - either Halton sequence, or the classical LHS design. In the same way, the possibility of testing data is available. 
+MixedDoE-MATLAB is a program that creates a Design of (computer) Experiments (DoE) for cobination of discrete and/or continuous variables in Matlab. The descrete part is composed either of full factorial or Taguchi-type Orthogonal array desings. For each point in a descrete part, a sliced design (Qian, 2015) is created for continuous variables. In this way, the continuous domain is uniformly covered but still, for different discrete poits the continuous part is not overlapping. Two procedures for contonuous part are avalable - either Halton sequence, or the classical LHS design. In the same way, the possibility of testing data generation is available. 
 
 For educational and research purposes, license for using StableTrussOpt-MATLAB is free of charge.
 For commercial purposes, please contact program developers.
