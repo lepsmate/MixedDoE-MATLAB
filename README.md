@@ -27,7 +27,7 @@ Your design using JSON file, inspect examples for syntax
 >> main 'JSONfile.json'
 ```
 ## Documentation
-Documentation/user manual is available [here](.pdf).
+Documentation/user manual is available [here](MixedDoE_Documentation.pdf).
 
 
 ## References
