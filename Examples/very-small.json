@@ -1,0 +1,54 @@
+{
+  "Help":"
+  Type of DoEs: independent, dependent; 
+  Type of OA: fullfact, OA; 
+  Type of LHS: halton, matlab;
+  Type of request: onlytrain, testtoo;
+  ",
+  "TypeOfDoEs":"dependent",
+  "TypeOfOA":"fullfact",
+  "TypeOfLHS":"halton",
+  "TypeOfRequest":"testtoo",
+  "NumberOfContinuousPoints":10,
+  "NumberOfContinuousTestPoints":10,
+  "SetOfInputParameters":[
+    {
+      "Name":"frame-width",
+      "OptimizationType":"continuous",
+      "ContinuousMin":6.0,
+      "ContinuousMax":60.0
+ },
+    {
+      "Name":"frame-height",
+      "OptimizationType":"continuous",
+      "ContinuousMin":3.0,
+      "ContinuousMax":25.0
+    },
+    {
+      "Name":"roof-slope",
+      "OptimizationType":"discrete",
+      "DiscreteValuesCount":1
+    },
+    {
+      "Name":"bay-width",
+      "OptimizationType":"continuous",
+      "ContinuousMin":2.0,
+      "ContinuousMax":12.0
+    },
+    {
+      "Name":"snow-load",
+      "OptimizationType":"discrete",
+      "DiscreteValuesCount":1
+    },
+    {
+      "Name":"wind-load",
+      "OptimizationType":"discrete",
+      "DiscreteValuesCount":1
+    },
+    {
+      "Name":"live-load",
+      "OptimizationType":"discrete",
+      "DiscreteValuesCount":2
+    }
+  ]
+}
