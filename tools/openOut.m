@@ -9,7 +9,8 @@ function openOut(name)
 %
 if nargin<1
     error('Input needed') ;
-    fname = './Examples/velmi-maly.out.json';
+    % for working with the same file repeatedly
+    % fname = './Examples/velmi-maly.out.json';
 else 
      fname =name ;
 end

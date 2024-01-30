@@ -1,10 +1,5 @@
 {
-  "Help":"
-  Type of DoEs: independent, dependent; 
-  Type of OA: fullfact, OA; 
-  Type of LHS: halton, matlab;
-  Type of request: onlytrain, testtoo;
-  ",
+  "Help":"Type of DoEs: independent, dependent; Type of OA: fullfact, OA;Type of LHS: halton, matlab;Type of request: onlytrain, testtoo;",
   "TypeOfDoEs":"dependent",
   "TypeOfOA":"fullfact",
   "TypeOfLHS":"halton",
